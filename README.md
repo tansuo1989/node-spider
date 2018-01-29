@@ -14,14 +14,16 @@
 * phantomjs 客户端，推荐，[文档](http://phantomjs.org/api/webpage/method/evaluate.html)
 * phantom node.js的模块，功能弱一些，写起来麻烦一些
 * phantom-prebuilt 配合 webdriverio.js 
+* 使用 chrome 的程序
 
 ### 使用代理 IP 
+* .....
 
 ### 解决乱码问题
 * he node.js 模块，解析形如\x3453 \x54 这种编码的数据(用 he.decode(str))
 
 ### 保存数据
-* mksql 在 mysql 模块的基础上做了一些字符串接接的工作
+* mksql 在 mysql 模块的基础上做了一些字符串拼接的工作
 * mongoose
 * 其它
 
