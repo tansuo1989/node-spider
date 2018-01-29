@@ -18,7 +18,7 @@
 ### 使用代理 IP 
 
 ### 解决乱码问题
-* he node.js 模块，解析形如\x3453 \x54 这种编码的数据(用 de.decode(str))
+* he node.js 模块，解析形如\x3453 \x54 这种编码的数据(用 he.decode(str))
 
 ### 保存数据
 * mksql 在 mysql 模块的基础上做了一些字符串接接的工作
