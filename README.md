@@ -20,7 +20,8 @@
 * .....
 
 ### 解决乱码问题
-* he node.js 模块，解析形如\x3453 \x54 这种编码的数据(用 he.decode(str))
+* he node.js 模块，解析形如\x3453 \x54 这种编码的数据(用 he.decode(str)),一般是jquery中的html()返回的字符串可能需要使用
+* 存数据库时，建议使用html_encode,推荐库：html-entities [链接](https://www.npmjs.com/package/html-entities)
 
 ### 保存数据
 * mksql 在 mysql 模块的基础上做了一些字符串拼接的工作

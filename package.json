@@ -24,6 +24,8 @@
     "request":"*",
     "cheerio":"*",
     "mksql":"*",
-    "he":"*"
+    "he":"*",
+    "xss":"*",
+    "html-entities":"*"
   }
 }
